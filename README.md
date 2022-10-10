@@ -16,15 +16,15 @@
 
 ## SETUP OF AWS
 
-1. In AWS, provision a s3 bucket for hosting the uploaded files [Docs/S3](Docs/S3).
+1. In AWS, provision a s3 bucket for hosting the uploaded files [Docs/S3](./Docs/S3).
 
-2. In AWS, provision a publicly available RDS database running Postgres [Docs/RDS](Docs/RDS.md).
+2. In AWS, provision a publicly available RDS database running Postgres [Docs/RDS](./Docs/RDS.md).
 
-3. Using Eb Cli, provision a Elastic Beanstalk for Backend [Docs/Eb](Docs/Eb.md).
+3. Using Eb Cli, provision a Elastic Beanstalk for Backend [Docs/Eb](./Docs/Eb.md).
 
 ## Pipeline & CircleCi
 
-- [read doc...](Docs/Pipeline&CircleCi)
+- [read doc...](./Docs/Pipeline&CircleCi)
 
 ## Diagram
 
