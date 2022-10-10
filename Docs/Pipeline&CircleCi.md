@@ -22,7 +22,11 @@
 - Singup in CircleCi using your GitHub account
 - open **projects** and select the repository of this project
   ![CircleCi](./screenshoots/circleci/1.png)
-- set AWS_ACCESS_KEY_ID, AWS_DEFAULT_REGION and AWS_SECRET_ACCESS_KEY.
+- Add environment variables 
+  - AWS_ACCESS_KEY_ID.
+  - AWS_DEFAULT_REGION.
+  - AWS_SECRET_ACCESS_KEY.
+  - POSTGRES_USERNAME, HOST, DB, PORT and other variables.
   ![CircleCi](./screenshoots/circleci/2.png)
 
 - now CircleCi can run pipeLine successfully
