@@ -16,7 +16,7 @@
 
 ## SETUP OF AWS
 
-1. In AWS, provision a s3 bucket for hosting the uploaded files [Docs/S3](./Docs/S3).
+1. In AWS, provision a s3 bucket for hosting the uploaded files [Docs/S3](./Docs/S3.md).
 
 2. In AWS, provision a publicly available RDS database running Postgres [Docs/RDS](./Docs/RDS.md).
 
@@ -24,7 +24,7 @@
 
 ## Pipeline & CircleCi
 
-- [read doc...](./Docs/Pipeline&CircleCi)
+- [read doc...](./Docs/Pipeline&CircleCi.md)
 
 ## Diagram
 
