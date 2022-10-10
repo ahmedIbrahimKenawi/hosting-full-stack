@@ -23,6 +23,8 @@
 3. Using Eb Cli, provision a Elastic Beanstalk for Backend [Docs/Eb](./Docs/Eb.md).
 
 ## Pipeline & CircleCi
+- [![CircleCi](https://circleci.com/gh/ahmedIbrahimKenawi/hosting-full-stack.svg?style=svg)](https://circleci.com/gh/ahmedIbrahimKenawi/hosting-full-stack)
+
 
 - [read doc...](./Docs/Pipeline&CircleCi.md)
 
