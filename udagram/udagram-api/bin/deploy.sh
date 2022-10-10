@@ -8,3 +8,4 @@ eb setenv POSTGRES_HOST=$POSTGRES_HOST
 eb setenv DB_PORT=$DB_PORT
 eb setenv JWT_SECRET=$JWT_SECRET
 eb setenv PORT=$PORT
+eb setenv URL=$URL
