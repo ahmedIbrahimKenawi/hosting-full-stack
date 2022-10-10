@@ -42,17 +42,6 @@ jobs:
           command: |
             echo "TODO: Build the backend API"
             npm run api:build
-
-  deploy:
-    docker:
-      - image: "cimg/base:stable"
-      # more setup needed for aws, node, elastic beanstalk
-    steps:
-      - node/install:
-          node-version: '14.15' 
-      - eb/setup
-      - aws-cli/setup
-      - checkout          
       # Deploying the frontend to AWS S3
       - run:
           name: Front-End Deploy
@@ -63,18 +52,3 @@ jobs:
           name: Back-End Deploy
           command: |
             npm run backend:deploy
-workflows:
-  udagram:
-    jobs:
-      - build
-      - hold:
-          filters:
-            branches:
-              only:
-                - master
-          type: approval
-          requires:
-            - build
-      - deploy:
-          requires:
-            - hold
