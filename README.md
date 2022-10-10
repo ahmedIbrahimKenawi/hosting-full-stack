@@ -1,4 +1,4 @@
-# Hosting a Full-Stack Application
+# Hosting a Full-Stack Application [![CircleCi](https://circleci.com/gh/ahmedIbrahimKenawi/hosting-full-stack.svg?style=svg)](https://circleci.com/gh/ahmedIbrahimKenawi/hosting-full-stack)
 # Udagram
 > This application is provided by udacity. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
 
@@ -14,7 +14,6 @@
 3. Using Eb Cli, provision a Elastic Beanstalk for Backend [Docs/Eb](./Docs/Eb.md).
 
 ## Pipeline & CircleCi
-- **Status**: [![CircleCi](https://circleci.com/gh/ahmedIbrahimKenawi/hosting-full-stack.svg?style=svg)](https://circleci.com/gh/ahmedIbrahimKenawi/hosting-full-stack)
 - [read doc...](./Docs/Pipeline&CircleCi.md)
 
 ## Diagram
