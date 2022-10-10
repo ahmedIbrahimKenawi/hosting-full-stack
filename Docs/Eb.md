@@ -54,3 +54,4 @@ Environment details for: udagram-api-dev
 > Elastic Beanstalk > Environments > udagram-api-dev > Configuration
 
 ![udagram-api-dev](./screenshoots/eb/2.png)
+\* replace asterisks in JWT_SECRET and POSTGRES_PASSWORD fields by your own values
