@@ -42,22 +42,11 @@ jobs:
           command: |
             echo "TODO: Build the backend API"
             npm run api:build
-  # deploy step will run only after manual approval
-  deploy:
-    docker:
-      - image: "cimg/base:stable"
-      # more setup needed for aws, node, elastic beanstalk
-    steps:
-      - node/install:
-          node-version: "14.15"
-      - eb/setup
-      - aws-cli/setup
-      - checkout
+      # TODO: Deploying
       - run:
-          name: Deploy App
-          # TODO: Install, build, deploy in both apps
+          name: Deploying
           command: |
-            echo "# TODO: Install, build, deploy in both apps"
+            echo "# TODO: Deploying"
             npm run deploy
 
 workflows:
