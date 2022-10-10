@@ -49,9 +49,4 @@ Environment details for: udagram-api-dev
 
 ## ![udagram-api-dev](./screenshoots/eb/Screenshot_20221010_121754.png)
 
-## set environment variable in Elastic Beanstalk
 
-> Elastic Beanstalk > Environments > udagram-api-dev > Configuration
-
-![udagram-api-dev](./screenshoots/eb/2.png)
-\* replace asterisks in JWT_SECRET and POSTGRES_PASSWORD fields by your own values
