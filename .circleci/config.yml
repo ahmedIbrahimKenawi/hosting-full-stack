@@ -55,3 +55,11 @@ jobs:
           name: Back-End Deploy
           command: |
             npm run api:deploy
+workflows:
+  build-and-deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - main
